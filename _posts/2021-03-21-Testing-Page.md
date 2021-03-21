@@ -3,7 +3,7 @@ title: Testing Page made by DamoNeer
 published: true
 ---
 
-Text can be **test**, test, ~~test~~ or `test`.
+Text can be **test**, _test_, ~~test~~ or `test`.
 
 [Link to another page](another-page).
 
