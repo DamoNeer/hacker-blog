@@ -5,7 +5,7 @@ published: true
 
 Text can be **test**, _test_, ~~test~~ or `test`.
 
-[Link to another page](https://damoneer.github.io/hacker-blog/).
+[Return Home](https://damoneer.github.io/hacker-blog/).
 
 There should be whitespace between paragraphs.
 
