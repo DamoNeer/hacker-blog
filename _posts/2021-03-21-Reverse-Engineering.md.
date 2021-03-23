@@ -1,0 +1,21 @@
+---
+title: NCL Spring 2021 Gym | Enumeration and Exploitation
+published: true
+---
+
+## [](#header-2) Binary 1
+
+> We need to break into a program that the hackers have created. You will need to provide the identifier, 7074, as the only argument to the program.
+
+### [](#header-3)Solution
+
+Using **Ghidra**, I was able to see the code of the main function.
+
+
+```Linux
+// Linux command
+$ chmod +x crackme1
+$ ./crackme1
+flag
+```
+
