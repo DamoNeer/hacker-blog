@@ -20,7 +20,7 @@ Using Cyberchef, a combination of ROT 13 and ROT 47 gave us something that resem
 ![image](https://user-images.githubusercontent.com/81070073/112229894-0a3bc300-8bf1-11eb-8c08-7dbd74b4d442.png)
 
 The output tells us that we need to take a step back and revisit somewhere we have been before. I could only think of one place and that would be the Tryhackme challenge page.
-Looking at the source code, I have come across a suspicious code for the string "hmm" right below the challenge title.
+Looking at the source code, I have come across a suspicious code for the string `hmm` right below the challenge title.
 
 ![image](https://user-images.githubusercontent.com/81070073/112230059-6f8fb400-8bf1-11eb-89eb-03d0593f4dc2.png)
 
