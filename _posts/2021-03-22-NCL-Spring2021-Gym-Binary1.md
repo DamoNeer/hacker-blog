@@ -50,7 +50,8 @@ I obtained the flag by entering 45 characters, which is bigger than 44 bytes.
 
 ```Linux
 \\Linux command
-$Please enter a password: 1234123412341234123412341234123412341234123412341
+$./file 7074
+Please enter a password: 1234123412341234123412341234123412341234123412341
 your tid: 7074
 flag
 ```
