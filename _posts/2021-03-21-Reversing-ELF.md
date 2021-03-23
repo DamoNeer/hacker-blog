@@ -226,3 +226,28 @@ However, **Ghidra** will decompile the code right away for you.
 
 ![image](https://user-images.githubusercontent.com/81070073/112082565-da35e680-8b42-11eb-9d8d-ed6ccadd4d59.png)
 
+As shown in the screenshot, it's just a bunch of if-statements that validate the input character by character. 
+
+Password = 13.....d
+
+## [](#header-2)Task 7: Crackme7
+
+> Analyze the binary to get the flag
+ 
+### [](#header-3)Solution
+
+I will be using **Ghidra** for this as well. Analyzing the _main_ function, I see that it gives the user three options to choose from. If the user answers with an unexpected option: 0x7a69, then it will call _giveFlag()_ function. Please note that, 0x7a69 refers to its decimal form, which is **31337**.
+
+```Linux
+// Linux command
+$ ./crackme7
+Menu:
+[1] Say hello
+[2] Add numbers
+[3] Quit
+
+[>] 31337
+Wow such h4x0r!
+flag
+
+```
