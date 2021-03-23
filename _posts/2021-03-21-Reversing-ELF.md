@@ -3,11 +3,6 @@ title: TryHackMe Challenge | Reversing ELF
 published: true
 ---
 
-# [](#header-1)
-Category: Reverse Engineering
-Platform: Linux
-Tools: Ghidra and Radare2
-
 ## [](#header-2)Task 1: Crackme1
 
 > Let's start with a basic warmup, can you run the binary?
