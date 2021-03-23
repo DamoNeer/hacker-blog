@@ -57,7 +57,7 @@ flag
 
 ### [](#header-3)Solution
 
-I find it easier to use radare2 for this challenge.
+I find it easier to use *radare2* for this challenge.
 *aaa* is one of the three stages used to analyze binary and find strings and funcitons
 *afl* is used to list all of the functions; I found the _main_ function here
 *pdf @"function"* is used to look into a specific function; I found _compare.pwd_ which is used to compare two strings
@@ -177,6 +177,39 @@ $db 0x004006d2
 $dc
 $px @rdi
 - offset -       0 1  2 3  4 5  6 7  8 9  A B  C D  E F  0123456789ABCDEF
-0x7fff24aba610  6d79 5f6d 3072 335f 7365 6375 7233 5f70           
+0x7fff24aba610  6d79 5f6d 3072 335f 7365 6375 7233 5f70                         <---- Answer
 0x7fff24aba620  7764 0000 0000 0000 0065 6a8c 7e63 798f    .......ej.~cy.
+```
+## [](#header-2)Task 5: Crackme5
+
+> What will be the input of the file to get output _Good game_ ?
+ 
+### [](#header-3)Solution
+
+I solved this using *radare2* as well. I looked over the _main_ function and found that _sym.strcmp__ is being called.
+
+```Linux
+// Linux command
+$ pdf @sym.strcmp_
+...
+│           0x00400761      4889ce         mov rsi, rcx
+│           0x00400764      4889c7         mov rdi, rax     <----- Need to set a breaking point here.
+│           0x00400767      e8f4fdffff     call sym.imp.strncmp        ; int strnc 
+...
+$ db 0x00400764
+$ dc
+Enter your input:
+Doesn't matter what you enter here. We just want to run the program.
+hit breakpoint at 0x400764
+```
+
+I tried viewing the content of rdi. However, it wasn't the answer. I tried the other variables and rsi worked for me.
+The answer actually does show up in rdi as well, but it just wasn't in the first two lines.
+
+```Linux
+// Linux command
+$ px @rsi
+- offset -       0 1  2 3  4 5  6 7  8 9  A B  C D  E F  0123456789ABCDEF
+0x7ffcbff88cf0  4f66 646c 4453 417c 3374 5862 3332 7e58                             <----- Answer                                
+0x7ffcbff88d00  3374 5840 7358 6034 7458 747a 0000 0000              ....
 ```
