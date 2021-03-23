@@ -3,6 +3,7 @@ title: TryHackMe Challenge | Reversing ELF
 published: true
 ---
 
+# [](#header-1)
 Category: Reverse Engineering
 Platform: Linux
 Tools: Ghidra and Radare2
