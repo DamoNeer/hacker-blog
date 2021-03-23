@@ -3,4 +3,5 @@ layout: page
 title: About
 ---
 
-Something about me.
+Github: https://github.com/DamoNeer?tab=repositories 
+Email: damoneer.ctf@gmail.com
