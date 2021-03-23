@@ -45,7 +45,7 @@ undefined8 main(int param_1,undefined8 *param_2)
 ```
 
 The function is checking if the _pass_ variable is 0.
-The fact that the character size limit is only 44 bytes causes a buffer overflow vulnerability, which can modify the value of pass to be not be 0, thus giving us the flag.
+The fact that the character size limit is only 44 bytes causes a buffer overflow vulnerability, which can modify the value of pass to not be 0, thus giving us the flag.
 I obtained the flag by entering 45 characters, which is bigger than 44 bytes.
 
 ```Linux
