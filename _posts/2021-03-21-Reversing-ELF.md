@@ -3,6 +3,10 @@ title: TryHackMe Challenge | Reversing ELF
 published: true
 ---
 
+Category: Reverse Engineering
+Platform: Linux
+Tools: Ghidra and Radare2
+
 ## [](#header-2)Task 1: Crackme1
 
 > Let's start with a basic warmup, can you run the binary?
@@ -264,3 +268,4 @@ This one was surprisingly easier than the last one. The _main_ function basicall
 $ ./crackme8 -889262067
 Access granted.
 flag
+```
