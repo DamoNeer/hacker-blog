@@ -249,5 +249,18 @@ Menu:
 [>] 31337
 Wow such h4x0r!
 flag
-
 ```
+
+## [](#header-2)Task 8: Crackme8
+
+> Analyze the binary to get the flag
+ 
+### [](#header-3)Solution
+
+This one was surprisingly easier than the last one. The _main_ function basically states if the input == -0x35010ff3, which is -889262067 in decimal form, then it will call the _giveFlag()_ function to give you the flag.
+
+```Linux
+// Linux command
+$ ./crackme8 -889262067
+Access granted.
+flag
