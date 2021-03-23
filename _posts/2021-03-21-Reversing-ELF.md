@@ -57,7 +57,7 @@ flag
 
 ### [](#header-3)Solution
 
-I find it easier to use *radare2* for this challenge.
+I find it easier to use **radare2** for this challenge.
 *aaa* is one of the three stages used to analyze binary and find strings and funcitons
 *afl* is used to list all of the functions; I found the _main_ function here
 *pdf @"function"* is used to look into a specific function; I found _compare.pwd_ which is used to compare two strings
@@ -186,7 +186,7 @@ $px @rdi
  
 ### [](#header-3)Solution
 
-I solved this using *radare2* as well. I looked over the _main_ function and found that _sym.strcmp__ is being called.
+I solved this using **radare2** as well. I looked over the _main_ function and found that _sym.strcmp__ is being called.
 
 ```Linux
 // Linux command
@@ -213,3 +213,16 @@ $ px @rsi
 0x7ffcbff88cf0  4f66 646c 4453 417c 3374 5862 3332 7e58                             <----- Answer                                
 0x7ffcbff88d00  3374 5840 7358 6034 7458 747a 0000 0000              ....
 ```
+
+## [](#header-2)Task 6: Crackme6
+
+> Analyze the binary for the easy password
+ 
+### [](#header-3)Solution
+
+This time, I am using a different tool called **Ghidra** because it was much easier for me to understand.
+Whether you use **Ghidra** or **radare2**, you will come to the same conclusion that _main_ function -> _compare_pwd_ function -> _my_secure_test_ function.
+However, **Ghidra** will decompile the code right away for you.
+
+![image](https://user-images.githubusercontent.com/81070073/112082565-da35e680-8b42-11eb-9d8d-ed6ccadd4d59.png)
+
