@@ -1,14 +1,43 @@
 ---
-title: TryHackMe Challenge | The Impossible Challenge
+title: CryptoHack | RSA Starter
 published: true
 ---
 
-## [](#header-2)Task 1: Submit the flag
+## [](#header-2)RSA Starter 1
 
-> Download the file, and find the Flag!
-```
-qo qt q` r6 ro su pn s_ rn r6 p6 s_ q2 ps qq rs rp ps rt r4 pu pt qn r4 rq pt q`so pu ps 
-r4 sq pu ps q2 su rn on oq o_ pu ps ou r5 pu pt r4 sr rp qt pu rs q2 qt r4 r4 ro su pq o5
-```
+> Find the solution to 10117 mod 22663
 
 ### [](#header-3)Solution
+
+'''Python
+//Python
+answer = pow(101, 17, 22663)
+'''
+## [](#header-2)RSA Starter 2
+
+> "Encrypt" the number 12 using the exponent e = 65537 and the primes p = 17 and q = 23. What number do you get as the ciphertext?
+
+### [](#header-3)Solution
+
+'''Python
+//Python
+m = 12 #message to be encrypted
+e = 65537
+p = 17
+q = 23
+n = p*q
+
+answer = pow(b, e, n)
+'''
+
+## [](#header-2)RSA Starter 3
+
+> Given two prime numbers, what's the totient of n ?
+
+### [](#header-3)Solution
+
+'''Python
+//Python
+p = 857504083339712752489993810777
+q = 1029224947942998075080348647219
+answer = (p-1)*(q-1)                     #totient of n
