@@ -83,7 +83,7 @@ answer = pow(c, d, n)
 ### [](#header-3)Solution
 
 ```Python
-//Python
+\\Python
 from Crypto.Hash import SHA256
 from Crypto.Util.number import bytes_to_long
 
