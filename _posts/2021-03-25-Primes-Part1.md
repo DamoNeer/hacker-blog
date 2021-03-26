@@ -16,7 +16,7 @@ http://factordb.com/index.php?query=51014375873550902553088020065319646053265314
 
 ### [](#header-3)Solution
 Factor the given n into two prime numbers first, then use the output.txt as a reference as to how to get the decrypted message back.
-```
+```Python
 \\Python
 from Crypto.Util.number import long_to_bytes
 
