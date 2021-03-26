@@ -20,7 +20,7 @@ answer = pow(101, 17, 22663)
 ### [](#header-3)Solution
 
 ```Python
-//Python
+\\Python
 m = 12 #message to be encrypted
 e = 65537
 p = 17
@@ -37,7 +37,7 @@ answer = pow(b, e, n)
 ### [](#header-3)Solution
 
 ```Python
-//Python
+\\Python
 p = 857504083339712752489993810777
 q = 1029224947942998075080348647219
 answer = (p-1)*(q-1)                     #totient of n
@@ -49,7 +49,7 @@ answer = (p-1)*(q-1)                     #totient of n
 
 ### [](#header-3)Solution
 ```Python
-//Python
+\\Python
 p = 857504083339712752489993810777
 q = 1029224947942998075080348647219
 e = 65537
@@ -64,7 +64,7 @@ d = pow(e, -1, phi)
 ### [](#header-3)Solution
 
 ```Python
-//Python
+\\Python
 p = 857504083339712752489993810777
 q = 1029224947942998075080348647219
 n = 882564595536224140639625987659416029426239230804614613279163
