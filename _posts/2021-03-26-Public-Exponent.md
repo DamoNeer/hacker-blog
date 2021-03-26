@@ -41,6 +41,7 @@ Since n >> c and e is very small, it's reasonable to estimate:
 `c = pt^e` 
 This means we simply need to **take the eth root of c** (ciphertext) in order to find pt (plaintext).
 The code for _iroot_ is taken from the _gmpy2_ module.
+
 ```Python
 \\Python
 def iroot(x, n):
@@ -61,3 +62,4 @@ c = 2432510536179037603099418448354112923733506559730754802640013529198651801512
 pt = iroot(c,3)[0]
 decrypted = long_to_bytes(pt)
 print(decrypted)
+```
