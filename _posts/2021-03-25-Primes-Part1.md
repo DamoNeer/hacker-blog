@@ -15,7 +15,8 @@ http://factordb.com/index.php?query=51014375873550902553088020065319646053265314
 > Here is my super-strong RSA implementation, because it's 1600 bits strong it should be unbreakable... at least I think so!
 
 ### [](#header-3)Solution
-Factor the given n into two prime numbers first, then use the output.txt as a reference as to how to get the decrypted message back.
+Opening the _output.txt_ file will give us n, c, e .
+Factor the given n into two prime numbers first, then use the downloaded python script as a reference as to how to get the decrypted message back.
 ```Python
 \\Python
 from Crypto.Util.number import long_to_bytes
