@@ -78,7 +78,7 @@ answer = pow(c, d, n)
 
 ## [](#header-2)RSA Starter 6
 
-> Sign the flag crypto{Immut4ble_m3ssag1ng} using your private key and the SHA256 hash function.
+> Sign the flag crypto{Immut4ble_m3ssag1ng} using your downloaded private key (which contains n and d) and the SHA256 hash function.
 
 ### [](#header-3)Solution
 
