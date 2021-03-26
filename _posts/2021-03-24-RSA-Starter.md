@@ -78,7 +78,7 @@ answer = pow(c, d, n)
 
 ## [](#header-2)RSA Starter 6
 
-> Use the private key that you found for these parameters in the previous challenge to decrypt this ciphertext.
+> Sign the flag crypto{Immut4ble_m3ssag1ng} using your private key and the SHA256 hash function.
 
 ### [](#header-3)Solution
 
