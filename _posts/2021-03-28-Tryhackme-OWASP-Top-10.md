@@ -32,7 +32,7 @@ There are 0 non-root/non-service/non-daemon users.
 > What version of Ubuntu is running?
 
 ### [](#header-3)Solution
-![image](https://user-images.githubusercontent.com/81070073/112800914-22fb0d00-9025-11eb-8c2e-d9dd7d4bce76.png)
+![image](https://user-images.githubusercontent.com/81070073/112801944-6144fc00-9026-11eb-87de-29d7b68ae136.png)
 
 > Print out the MOTD. What favorite beverage is shown?
 
