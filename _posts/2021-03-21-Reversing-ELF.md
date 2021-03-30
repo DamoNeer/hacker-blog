@@ -1,5 +1,5 @@
 ---
-title: TryHackMe Challenge | Reversing ELF
+title: TryHackMe - Reversing ELF | Reversing
 published: true
 ---
 
