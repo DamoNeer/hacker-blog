@@ -71,9 +71,26 @@ Offset(V)          Name                    PID   PPID   Thds     Hnds   Sess  Wo
 0xfffffa8002e1db30 VBoxTray.exe           2432   2288     15      156      1      0 2021-03-20 17:57:54 UTC+0000
 0xfffffa8002de2b30 wmpnetwk.exe           2736    744      9      219      0      0 2021-03-20 17:58:00 UTC+0000
 0xfffffa80010cc460 FTK Imager.exe         1552   2708     17      429      1      0 2021-03-20 17:59:24 UTC+0000
-`0xfffffa8000dd0060 notepad.exe            2696   2288      4      309      1      0 2021-03-20 17:59:34 UTC+0000`
+----> 0xfffffa8000dd0060 notepad.exe            2696   2288      4      309      1      0 2021-03-20 17:59:34 UTC+0000
 0xfffffa8000de7b30 mscorsvw.exe           2104    744      7       92      0      1 2021-03-20 17:59:53 UTC+0000
 0xfffffa8002f82590 mscorsvw.exe           1724    744      7       87      0      0 2021-03-20 17:59:53 UTC+0000
 0xfffffa8002773090 SearchProtocol         3292   1888      8      284      0      0 2021-03-20 18:15:53 UTC+0000
 0xfffffa800213e4e0 SearchFilterHo         1740   1888      5      103      0      0 2021-03-20 18:15:53 UTC+0000
+```
+
+Reminded by the challenge title, "notes", perhaps I should check out the _notepad.exe_. In other words, I went ahead and dumped its memory.
+
+```
+>volatility_2.6_win64_standalone.exe --profile=Win7SP1x64 -f image.mem memdump --pid 2696 --dump-dir ./
+Volatility Foundation Volatility Framework 2.6
+************************************************************************
+Writing notepad.exe [  2696] to 2696.dmp
+```
+
+After doing so, I decided to use **strings** and **findstr** command (which is the windows version of **grep**) to look for the flag and it always begins with "UMASS"
+
+```
+>strings.exe 2696.dump | findstr UMASS > output.txt
+>type output.txt
+UMASS{$3CUR3_$70Rag3}
 ```
