@@ -1,5 +1,5 @@
 ---
-title: CryptoHack | Primes Part 1
+title: CryptoHack - Primes Part 1 | Crypto
 published: true
 ---
 
