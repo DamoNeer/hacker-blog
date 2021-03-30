@@ -1,5 +1,5 @@
 ---
-title: Tryhackme | OWASP Top Ten
+title: Tryhackme - OWASP Top Ten | Web
 published: true
 ---
 
