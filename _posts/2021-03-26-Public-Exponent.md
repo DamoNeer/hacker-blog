@@ -1,5 +1,5 @@
 ---
-title: CryptoHack | Public Exponent
+title: CryptoHack - Public Exponent | Crypto
 published: true
 ---
 
