@@ -13,7 +13,6 @@ published: true
 I will be using a tool called **Volatility** to complete this challenge on a Windows machine. It is open souce, written in Python, and supports Windows/Mac OS X/Linux.
 
 ```
-\\Windows
 > volatility_2.6_win64_standalone.exe imageinfo -f image.mem
 Volatility Foundation Volatility Framework 2.6
 INFO    : volatility.debug    : Determining profile based on KDBG search...
@@ -39,7 +38,6 @@ INFO    : volatility.debug    : Determining profile based on KDBG search...
 There are a few suggested profiles. Let's see what processes is the first profile using.
 
 ```
-\\Windows
 > volatility_2.6_win64_standalone.exe --profile=Win7SP1x64 -f image.mem pslist
 Volatility Foundation Volatility Framework 2.6
 Offset(V)          Name                    PID   PPID   Thds     Hnds   Sess  Wow64 Start                          Exit
@@ -83,7 +81,6 @@ Offset(V)          Name                    PID   PPID   Thds     Hnds   Sess  Wo
 Reminded by the challenge title, "notes", perhaps I should check out the _notepad.exe_. In other words, I went ahead and dumped its memory.
 
 ```
-\\Windows
 >volatility_2.6_win64_standalone.exe --profile=Win7SP1x64 -f image.mem memdump --pid 2696 --dump-dir ./
 Volatility Foundation Volatility Framework 2.6
 ************************************************************************
@@ -93,7 +90,6 @@ Writing notepad.exe [  2696] to 2696.dmp
 After doing so, I decided to use **strings** and **findstr** command (which is the windows version of **grep**) to look for the flag and it always begins with "UMASS"
 
 ```
-\\Windows
 >strings.exe 2696.dump | findstr UMASS > output.txt
 >type output.txt
 UMASS{$3CUR3_$70Rag3}
