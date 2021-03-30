@@ -1,5 +1,5 @@
 ---
-title: CryptoHack | RSA Starter
+title: CryptoHack - RSA Starter | Crypto
 published: true
 ---
 
