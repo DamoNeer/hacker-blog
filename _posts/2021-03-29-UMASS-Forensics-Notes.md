@@ -1,5 +1,5 @@
 ---
-title: UMASS CTF 2021 | Forensics - Notes
+title: UMASS CTF 2021 - Notes | Forensics
 published: true
 ---
 
