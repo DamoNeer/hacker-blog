@@ -1,5 +1,5 @@
 ---
-title: TryHackMe Challenge | The Impossible Challenge
+title: TryHackMe - The Impossible Challenge | Crypto
 published: true
 ---
 
