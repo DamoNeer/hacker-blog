@@ -18,7 +18,7 @@ Volatility Foundation Volatility Framework 2.6
 INFO    : volatility.debug    : Determining profile based on KDBG search...
           Suggested Profile(s) : Win7SP1x64, Win7SP0x64, Win2008R2SP0x64, Win2008R2SP1x64_23418, Win2008R2SP1x64, Win7SP1x64_23418
                      AS Layer1 : WindowsAMD64PagedMemory (Kernel AS)
-                     AS Layer2 : FileAddressSpace (C:\Users\marco\Desktop\UMASS\Forensics\volatility_2.6_win64_standalone\image.mem)
+                     AS Layer2 : FileAddressSpace (C:\Users\     \Desktop\UMASS\Forensics\volatility_2.6_win64_standalone\image.mem)
                       PAE type : No PAE
                            DTB : 0x187000L
                           KDBG : 0xf80002a3b0a0L
