@@ -70,7 +70,7 @@ There is a wordlist and a hash.
 The wordlist is fairly short. There is a chance that the password contains 2-3 of these words here, so I combined the wordlist with itself two times before cracking the hash with hashcat.
 
 ```
-//Linux
+\\Linux
 $/usr/share/hashcat-utils/combinator.bin wordlist.txt wordlist.txt > wordlistx2.txt
 $hashcat -m 0 -a 1 hash wordlistx2.txt wordlist.txt
 
