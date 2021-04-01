@@ -37,8 +37,8 @@ Now there are three things on my mind:
 > **B**TW, Lesly is Marvel fan.
 
 Using this [https://github.com/ra1nb0rn/lsb_image_stego](password based LSB Steg tool) on Captain America's picture:
-```
-\\Linux
+```Linux
+\\Linux command
 $./lsb_image_stego.py -R -c Captain_America.png -o output.txt -p this
 -----------------------------------------------------------
 |===== LSB Image Steganography Tool (by Dustin Born) =====|
