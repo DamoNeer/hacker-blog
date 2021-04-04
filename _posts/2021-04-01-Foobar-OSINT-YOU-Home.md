@@ -56,7 +56,7 @@ The short link was actually used for [pastebin](https://pastebin.com/UTDgPMGE) a
 
 ![image](https://user-images.githubusercontent.com/81070073/113349493-fc6ef780-92ec-11eb-8ceb-aa7a91ee4ef1.png)
 
-Doing a quick google search of "Kristina Parker + Caltech", I see that she has a [https://www.linkedin.com/in/kristina-parker-366629206/](Linkedin).
+Doing a quick google search of "Kristina Parker + Caltech", I see that she has a [Linkedin](https://www.linkedin.com/in/kristina-parker-366629206/).
 
 She has a OSINT PPT and there is a link on the last page of it (She purposefully put a space between 5 and 7 to make people think that the page doesn't exit)
 https://gist.github.com/h4x0rl4dy/b32511c29ef72700fbe57c90e5e857ac
