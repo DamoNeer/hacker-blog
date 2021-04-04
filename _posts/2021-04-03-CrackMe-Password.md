@@ -41,6 +41,7 @@ Finally, I used **hashcat** to combine the wordlist made in Python with the coun
 ```Linux
 //Linux
 $hashcat -m 1400 -a 1 hash.txt python_wordlist.txt country_code.txt 
+
 1bf575335ff6a3bad86bfa2c83a884fa018253483c7e5630629761a23523e963:dachshund_aquamarine_974
 ```
 
