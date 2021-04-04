@@ -14,7 +14,7 @@ See how cautious I am. Oh wait, did I leak something that I should not?
 
 This challenge was pretty straightforward since they told you what the password consists of, and probably means _rockyou.txt_ isn't going to helpful here.
 There is a lot of trial and error going on, but after quite some time I finally got the correct combination.
-I used Python to help me create a wordlist that combines the [https://sortmylist.com/reference/biology/dog_breeds.txt](dog breed) (excluding breed names with parentheses) with [https://github.com/imsky/wordlists/blob/master/adjectives/colors.txt](general colors).
+I used Python to help me create a wordlist that combines the [dog breed](https://sortmylist.com/reference/biology/dog_breeds.txt) (excluding breed names with parentheses) with [general colors](https://github.com/imsky/wordlists/blob/master/adjectives/colors.txt).
 I had to get rid of the capitalization and empty spaces in both txt document.
 ```Python
 //Python
