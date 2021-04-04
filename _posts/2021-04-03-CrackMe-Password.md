@@ -1,5 +1,5 @@
 ---
-title: Foobar CTF 2021 - CrackMe  | Password
+title: ShaktiCon CTF 2021 - CrackMe  | Password
 published: true
 ---
 
