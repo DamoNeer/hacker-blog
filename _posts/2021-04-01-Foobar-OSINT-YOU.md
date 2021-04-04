@@ -44,15 +44,15 @@ This is all we know so far about her:
 
 Let's do more digging...
 
-Using [https://www.peekyou.com/username=h4x0rl4dy/](peekyou) with the username input "h4x0rl4dy", I was able to see that she has a valid **GitHub** and Reddit account besides Instagram and Twitter. 
+Using [peekyou](https://www.peekyou.com/username=h4x0rl4dy/) with the username input "h4x0rl4dy", I was able to see that she has a valid **GitHub** and Reddit account besides Instagram and Twitter. 
 
 ![image](https://user-images.githubusercontent.com/81070073/113347833-96817080-92ea-11eb-9889-44c6303de761.png)
 
-From her [https://github.com/h4x0rl4dy](github), I found out that she went to _Caltech_ and that there is a mysterious short link (UTDgPMGE) underneath it. Her commits in her repository also told me that she has a valid email: h4x0rl4dy@gmail.com and that matches with what we found on peekyou already.
+From her [github](https://github.com/h4x0rl4dy), I found out that she went to _Caltech_ and that there is a mysterious short link (UTDgPMGE) underneath it. Her commits in her repository also told me that she has a valid email: h4x0rl4dy@gmail.com and that matches with what we found on peekyou already.
 
 ![image](https://user-images.githubusercontent.com/81070073/113347752-7d78bf80-92ea-11eb-83ad-45b7cf5c23d9.png)
 
-The short link was actually used for [https://pastebin.com/UTDgPMGE](pastebin) and it led us to a locked document, so we need to find more about her in order to find the correct password.
+The short link was actually used for [pastebin](https://pastebin.com/UTDgPMGE) and it led us to a locked document, so we need to find more about her in order to find the correct password.
 
 ![image](https://user-images.githubusercontent.com/81070073/113349493-fc6ef780-92ec-11eb-8ceb-aa7a91ee4ef1.png)
 
