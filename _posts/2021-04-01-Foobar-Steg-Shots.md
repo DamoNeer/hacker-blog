@@ -11,7 +11,7 @@ published: true
 ### [](#header-3)Solution
 After changing the sdcard extension to sdcard.dmg
 
-I used a tool called [https://www.cleverfiles.com/disk-drill-win.html](Disk Drill) to recover the deleted files from her sdcard and I retrieved 9 photos in jpeg and one photo in png. They are all related to Marvel.
+I used a tool called [Disk Drill](https://www.cleverfiles.com/disk-drill-win.html) to recover the deleted files from her sdcard and I retrieved 9 photos in jpeg and one photo in png. They are all related to Marvel.
 
 ![image](https://user-images.githubusercontent.com/81070073/113358986-aeadbb80-92fb-11eb-84a8-3490ca40cad8.png)
 
@@ -36,7 +36,7 @@ Now there are three things on my mind:
 > **S**he gave you the camera to figure it out. 
 > **B**TW, Lesly is Marvel fan.
 
-Using this [https://github.com/ra1nb0rn/lsb_image_stego](password based LSB Steg tool) on Captain America's picture:
+Using this [password based LSB Steg tool](https://github.com/ra1nb0rn/lsb_image_stego) on Captain America's picture:
 ```Linux
 \\Linux command
 $./lsb_image_stego.py -R -c Captain_America.png -o output.txt -p this
