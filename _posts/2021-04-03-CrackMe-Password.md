@@ -32,7 +32,7 @@ for line in file:
 
 Afterwards, I copied the list of country codes (including "-" characters) from [https://countrycode.org/](this website) and paste them onto Excel. Isolate the country codes on Excel and paste it in a txt file.
 
-Then, I used an [https://www.tunnelsup.com/hash-analyzer/](online hash analyzer) and found out that I was dealing with SHA2-256 here.
+Then, I used an [online hash analyzer](https://www.tunnelsup.com/hash-analyzer/) and found out that I was dealing with SHA2-256 here.
 
 ![image](https://user-images.githubusercontent.com/81070073/113497984-984f5d80-94bd-11eb-9077-394aedc707f8.png)
 
