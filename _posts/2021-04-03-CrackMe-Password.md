@@ -30,7 +30,7 @@ for line in file:
         print(line + '_' + color + '_')
 ```
 
-Afterwards, I copied the list of country codes (including "-" characters) from [https://countrycode.org/](this website) and paste them onto Excel. Isolate the country codes on Excel and paste it in a txt file.
+Afterwards, I copied the list of country codes (including "-" characters) from [this website](https://countrycode.org/) and paste them onto Excel. Isolate the country codes on Excel and paste it in a txt file.
 
 Then, I used an [online hash analyzer](https://www.tunnelsup.com/hash-analyzer/) and found out that I was dealing with SHA2-256 here.
 
