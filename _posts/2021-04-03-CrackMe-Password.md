@@ -1,6 +1,6 @@
 ---
 title: ShaktiCon CTF 2021 - CrackMe  | Password
-published: false
+published: true
 ---
 
 ## [](#header-2)CrackMe
