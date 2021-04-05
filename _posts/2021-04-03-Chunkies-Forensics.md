@@ -11,6 +11,8 @@ published: true
 ### [](#header-3)Solution
 For this challenge, I used two tools to recover the file: [HexEd.it](https://hexed.it/) and the command [pngcheck](https://installlion.com/kali/kali/main/p/pngcheck/install/index.html)
 
+I also used this [website](https://hackmd.io/@FlsYpINbRKixPQQVbh98kw/Sk_lVRCBr) to help me learn the critical chunks of a png file.
+
 There will be a lot of back and forth between HexEd and pngcheck.
 
 ![image](https://user-images.githubusercontent.com/81070073/113530308-88498380-957a-11eb-8fff-b5b691c31ec3.png)
