@@ -6,6 +6,7 @@ published: true
 ## [](#header-2)Chunkies
 
 > We could only retrieve only this file from the machine, but looks like this is corrupted. Can you recover the file?
+
 > Downloadable file: _file.png_
 
 ### [](#header-3)Solution
