@@ -6,6 +6,7 @@ published: true
 ## [](#header-2)Render
 
 > My friend AFKAP send me a latest rendered song but i think it has some issues can you please do some basic checks before he release the song
+
 > Downloadable file: chall.wav
 
 ### [](#header-3)Solution
