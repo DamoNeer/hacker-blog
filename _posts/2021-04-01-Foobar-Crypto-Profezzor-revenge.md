@@ -6,6 +6,7 @@ published: true
 ## [](#header-2)revenge
 
 > The Profezzor has sent an encrypted pdf assignment, but he told it's easily crackable. Can you guys figure out the assignment, I need to submit it ASAP.
+
 > Downloadable file: assignment
 
 ### [](#header-3)Solution
