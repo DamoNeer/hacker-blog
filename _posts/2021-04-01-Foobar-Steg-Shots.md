@@ -6,6 +6,7 @@ published: true
 ## [](#header-2)Shots
 
 > Lesly accidently deleted her photos from camera. She gave you the camera to figure it out. BTW, Lesly is Marvel fan.
+
 > Downloadable file: sdcard
 
 ### [](#header-3)Solution
