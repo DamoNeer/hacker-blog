@@ -6,7 +6,8 @@ published: true
 ## [](#header-2)YOU
 
 > h4x0rl4dy - "Oversized shades, floral shirt, and a lean physique. That is all I remembered from our first meeting. A paradise on Earth they say, help me locate the place where we first met
-Flag format : GLUG{latitude_longitude} (upto 3 decimal places).
+
+>Flag format : GLUG{latitude_longitude} (upto 3 decimal places).
 
 
 ### [](#header-3)Solution
