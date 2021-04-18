@@ -23,4 +23,4 @@ I just put the image under decode tab and I have made sure to create a blank tex
 
 ![image](https://user-images.githubusercontent.com/81070073/115099794-13b50400-9eed-11eb-8c29-4cfc42803382.png)
 
-**Flag: UMDCTF-{c4rd_1n_a_c4rd$t4ck}**
+Flag: UMDCTF-{c4rd_1n_a_c4rd$t4ck}
