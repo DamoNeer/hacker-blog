@@ -12,7 +12,9 @@ published: true
 ### [](#header-3)Solution
 
 This is the first challenge that I have gotten first blood in. This challenge would have been impossible for those who have never heard of "Digital Invisible Ink Toolkit" or have
-never tried to google "ink + steganography".![chrome_muBCiUWXe3](https://user-images.githubusercontent.com/81070073/115099858-87efa780-9eed-11eb-9c5e-53bd7e2585bd.png)
+never tried to google "ink + steganography".
+
+![chrome_muBCiUWXe3](https://user-images.githubusercontent.com/81070073/115099858-87efa780-9eed-11eb-9c5e-53bd7e2585bd.png)
 
 
 ![image](https://user-images.githubusercontent.com/81070073/115099724-925d7180-9eec-11eb-81ff-236d8b9598f0.png)
