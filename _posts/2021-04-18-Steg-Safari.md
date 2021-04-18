@@ -41,7 +41,7 @@ Using Zsteg, I see that there is another png file within and I can extract it us
 ![image](https://user-images.githubusercontent.com/81070073/115165728-1ab25280-a064-11eb-9d2b-5cb125493fd5.png)
 
 ```
-//Powershell
+//Command
 $zsteg image1.png -E "b1,rgb,lsb,xy" > output.png
 ```
 
