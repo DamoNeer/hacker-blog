@@ -49,7 +49,7 @@ $zsteg image1.png -E "b1,rgb,lsb,xy" > output.png
 
 Step 4: QR code then Google Drive
 
-I used this [QR decoder](https://zxing.org/w/decode) and the google drive link has an audio file "flag.wav" for me to download.
+I used this [QR decoder](https://zxing.org/w/decode.jspx) and the google drive link has an audio file "flag.wav" for me to download.
 
 Step 5: Binary
 
