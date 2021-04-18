@@ -1,6 +1,6 @@
 ---
 title: UMDCTF 2021 - Hidden Card | Steg
-published: false
+published: true
 ---
 
 ## [](#header-2)Hidden Card
