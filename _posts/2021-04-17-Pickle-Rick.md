@@ -12,7 +12,7 @@ published: true
 ### [](#header-3)Solution
 
 After trying strings command, binwalk, and spectrogram via Audacity, I decided to look at the question more carefully.
-I noticed that the question gave us a specific name "Alan Eliasen". I did a google search and I found this (website)[https://futureboy.us/stegano/]
+I noticed that the question gave us a specific name "Alan Eliasen". I did a google search and I found this [website](https://futureboy.us/stegano/)
 
 I first uploaded the "together-forever-encoded.wav" without a passphrase, and the output was "The password is "big_chungus"!"
 
