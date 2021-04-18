@@ -1,6 +1,6 @@
 ---
 title: UMDCTF 2021 - Pickle Rick  | Steg
-published: true
+published: false
 ---
 
 ## [](#header-2)Pickle Rick
