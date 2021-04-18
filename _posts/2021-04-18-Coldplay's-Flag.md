@@ -20,6 +20,7 @@ Using Binwalk on the given audio file, I was able to extract a bunch of files. A
 ![image](https://user-images.githubusercontent.com/81070073/115163931-d8d3dd00-a060-11eb-8256-f9e88291f730.png)
 
 246D04E contains _flag.txt_
+
 246D131 contains _hint.txt_ <--- can be extracted without password
 
 ![image](https://user-images.githubusercontent.com/81070073/115164514-3b2cdd80-a061-11eb-84c1-16f6dd229fc0.png)
