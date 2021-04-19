@@ -4,7 +4,7 @@ published: true
 ---
 
 ## [](#header-2)Steg Safari
-> There are a lot of steps to this challenge. Are you ready to get on the ride with me to find this wild flag?
+> There's a lot of steps on this safari adventure... come with me to search for wild flags!
 
 > Given image: ![steg_safari](https://user-images.githubusercontent.com/81070073/115165332-3157aa00-a062-11eb-8c87-e809c3c0d6c1.jpg)
 
