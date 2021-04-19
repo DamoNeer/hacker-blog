@@ -14,7 +14,7 @@ published: true
 ![image](https://user-images.githubusercontent.com/81070073/115175416-c61cd080-a07f-11eb-992f-71c699bb1295.png)
 
 There are only three types of packets: SYN, RST, and PSH. If we assume the PSH packet is a pause between characters, we will see that the group of characters are between 4 and 5,
-which could be Morse code.
+which could be Morse code. (Please note that Wireshark did the color coding by default. It was not my doing.)
 
 Assuming SYN is dot while RST is dash, I will get an output that seems to be in hexadecimals. Once I convert from hex to ASCII, I will get the flag!
 
