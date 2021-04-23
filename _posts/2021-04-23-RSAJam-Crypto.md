@@ -43,6 +43,8 @@ if __name__ == "__main__":
 
 ### [](#header-3)Solution
 
+I have spent almost 24 hours on this question. This was the hardest Crypto question that I have done so far.
+
 The script will give e (65537), d (randomly generated), and N (randomly generated).
 
 The script asks for d2 value.
