@@ -1,6 +1,6 @@
 ---
 title: HTB Cyber Apocalypse 2021 - PhaseStream 1	 | Crypto
-published: false
+published: true
 ---
 
 ## [](#header-2)PhaseStream 1	
