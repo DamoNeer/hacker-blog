@@ -84,7 +84,7 @@ fn main() -> std::io::Result<()> {
   Ok(())
 }
 
-seed: 1618179277
+//seed: 1618179277
 ```
 
 After getting the seed as 1618179277, it's time to do the same thing I did in [SoulCrabber1](https://damoneer.github.io/hacker-blog/SoulCrabber-Crypto).
