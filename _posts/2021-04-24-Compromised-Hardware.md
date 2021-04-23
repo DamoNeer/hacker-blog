@@ -1,6 +1,6 @@
 ---
 title: HTB Cyber Apocalypse 2021 - Compromised | Hardware
-published: false
+published: true
 ---
 
 ## [](#header-2)Compromised
