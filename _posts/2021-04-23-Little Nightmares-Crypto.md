@@ -11,8 +11,7 @@ published: false
 
 > Defeat this and she we retreat into the night.
 
-
-> Given Script in RUST
+> Given Script
 
 ```
 from Crypto.Util.number import getPrime, bytes_to_long
