@@ -64,6 +64,6 @@ for line in lines:
         
         
 
-Flag: CHTB{n33dl3_1n_4_h4yst4ck}
+#Flag: CHTB{n33dl3_1n_4_h4yst4ck}
 ```
 
