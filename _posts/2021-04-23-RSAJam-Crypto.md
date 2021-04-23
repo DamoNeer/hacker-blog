@@ -170,3 +170,5 @@ for k in range(10000, 60000):       #That's what k usually is at after trying a 
 I actually did get the flag from this method once, but it was based on luck because my script luckily guessed the right k value.
 
 **It's much more reliable to aim for the prime factors of N which leads to the phi value directly (without having to guess k), and get d2.**
+
+Flag = CHTB{lambda_but_n0t_lam3_bda}
