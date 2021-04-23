@@ -1,6 +1,6 @@
 ---
 title: HTB Cyber Apocalypse 2021 - Serial Logs | Hardware
-published: false
+published: true
 ---
 
 ## [](#header-2)Serial Logs
