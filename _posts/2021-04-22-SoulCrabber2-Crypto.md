@@ -1,6 +1,6 @@
 ---
 title: HTB Cyber Apocalypse 2021 - SoulCrabber2 | Crypto
-published: false
+published: true
 ---
 
 ## [](#header-2)SoulCrabber2
