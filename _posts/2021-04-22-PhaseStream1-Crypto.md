@@ -38,7 +38,7 @@ print('Decrypted key part:', ''.join(chr(i) for i in key))
 
 
 
-output: mykey
+#mykey
 ```
 
 After that, just extract the plaintext using the given key.
