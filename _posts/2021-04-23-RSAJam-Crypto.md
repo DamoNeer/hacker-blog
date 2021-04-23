@@ -118,3 +118,55 @@ find_d2(p, q)
 ```
 
 Flag = CHTB{lambda_but_n0t_lam3_bda}
+
+There is actually another method to solve this, but it's not as reliable in my opinion.
+
+Rather than solving d2 from phi, I tried solving bruteforcing k first then phi and d2.
+
+This method surrounds the following formula:
+
+ed = k * phi + 1
+
+phi = (e * d -1)//k
+
+```
+import random
+e = 65537
+d = 21449697719230116087273950325996171573130106195873481685360452811261935641972975903038202587302168977183228465904066286969470722947662588600816360073429193087776517146775827925592501250792179016703659210189164131057348950849586823605300862872193412703302122087610702786409053047356196415374032392836389673473
+N = 94656847311641244226764048381577745363155866255401007959966870641146958195945250943196733079524762524924735301996821240934496180043159589868136946342490696170787924628554741985248815341343863284657657996685888523595653292790392833859235716830054061099986062945989369893225305862457763043012238438289062378701
+x = 1
+
+for k in range(10000, 60000):       #That's what k usually is at after trying a couple times
+
+    if x == 1:
+
+        phi = (e*d-1)//k
+
+        phi2 = phi // 2
+
+        d2 = d+ phi2 %N
+
+        for i in range(1):
+
+            if d2 != d:
+                if 0 <= d2 < phi:
+
+                    for _ in range(1):
+                        m = random.randrange(N)
+                        c = pow(m, e, N)
+                        if m == pow(c, d2, N):
+                            print("Correct! Your d2 value is: " + str(d2))
+                            print("The k value you used is: "+ str(k))
+                            x = 2
+
+                        else:
+                            print(k)
+                            continue
+                else:
+                    print("d2 is too big!")
+                    
+```
+
+I actually did get the flag from this method once, but it was based on luck because my script luckily guessed the right k value.
+
+**It's much more reliable to aim for the prime factors of N which leads to the phi value directly (without having to guess k), and get d2.**
