@@ -1,6 +1,6 @@
 ---
 title: HTB Cyber Apocalypse 2021 - Nintendo Base64 | Crypto
-published: true
+published: false
 ---
 
 ## [](#header-2)Nintendo Base64
