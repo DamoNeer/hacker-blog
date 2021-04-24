@@ -2,8 +2,8 @@
 layout: page
 title: About
 ---
-[https://github.com/DamoNeer](Github)
+[Github](https://github.com/DamoNeer)
 
 Email: damianl0xff@gmail.com
 
-Email: (LinkedIn)[https://www.linkedin.com/in/damian-l-805b0420a/]
+[LinkedIn](https://www.linkedin.com/in/damian-l-805b0420a/)
