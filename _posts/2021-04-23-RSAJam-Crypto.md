@@ -61,7 +61,7 @@ d2 = (d + phi//2) % phi
 
 In order to get phi, we are going to need to find the prime factors of N. 
 
-Thankfully, someone has already figured out how to find the prime factors of N. 
+Thankfully, someone has already figured out how to find the prime factors of N more than eight years ago.
 
 The first three functions are written by that [person](https://crypto.stackexchange.com/questions/6361/is-sharing-the-modulus-for-multiple-rsa-key-pairs-secure)
 
