@@ -121,9 +121,9 @@ Flag = CHTB{lambda_but_n0t_lam3_bda}
 
 There is actually another method to solve this, but it's not as reliable in my opinion.
 
-Rather than solving d2 from phi, I tried solving bruteforcing k first then phi and d2.
+Rather than solving d2 from phi, I tried bruteforcing k first then phi and d2.
 
-This method surrounds the following formula:
+This method needs requires this additional formula:
 
 ed = k * phi + 1
 
@@ -144,7 +144,7 @@ for k in range(10000, 60000):       #That's what k usually is at after trying a 
 
         phi2 = phi // 2
 
-        d2 = d+ phi2 %N
+        d2 = d+ phi2 % phi
 
         for i in range(1):
 
