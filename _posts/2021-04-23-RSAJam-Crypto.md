@@ -53,7 +53,7 @@ This is a pretty standard RSA problem. What's special about this is that they ar
 
 1. d2 must be positive and be less than phi
 2. d2 must not be the same as d
-3. d2 must be able to decrypte just as well d
+3. d2 must be able to decrypte just as well as d
 
 There is a quick and dirty way to find d2 here.
 
