@@ -9,7 +9,7 @@ published: false
 
 > nc umbccd.io 6000
 
-![image](https://photos.google.com/lr/photo/AH6roBPiVfaNKNO5LZXGseCiJMEAMRyXfNYCaP5M-1qQNv36XUeOjTfBrDqS1E_ccAVPY1a3ofTvjSRDdUpGsNkvBphRWkToAQ.png)
+![image](https://photos.app.goo.gl/WiYnB1N9BZSALjqJ9)
 
 ### [](#header-3)Solution
 
