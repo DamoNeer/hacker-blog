@@ -1,6 +1,6 @@
 ---
 title: DawgCTF 2021 - Two Truths and a Fib | Programming
-published: false
+published: true
 ---
 
 ## [](#header-2)Two Truths and a Fib
