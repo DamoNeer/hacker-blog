@@ -17,9 +17,7 @@ Clicking the source code gives the following:
 
 ![image](https://user-images.githubusercontent.com/81070073/118605223-e321ed80-b76a-11eb-8ca9-982edb4cabfb.png)
 
-There is php code vulnerability about using the operators "!=" and "==".
-
-Source: https://www.whitehatsec.com/blog/magic-hashes/
+There is [php code vulnerability](https://www.whitehatsec.com/blog/magic-hashes/) about using the operators "!=" and "==".
 
 The "51c3f5f5d8a8830bc5d8b7ebcb5717df" hash is easy to figure out. With a simple Google search, it's revealed to be "admin". The password requires a bit more research.
 
