@@ -1,6 +1,6 @@
 ---
 title: zh3r0 CTF 2021 - A small maniac's game | Programming
-published: false
+published: true
 ---
 
 ## [](#header-2)A small maniac's game
