@@ -1,6 +1,6 @@
 ---
 title: HSCTF 2021 - message board | Web
-published: false
+published: true
 ---
 
 ## [](#header-2)Warmup
@@ -78,4 +78,36 @@ app.listen(3000, (err) => {
     else console.log("connected at 3000 :)");
 })
 ```
+### [](#header-3)Solution
 
+After inputting the given credentials, I am greeted with this screen.
+
+![image](https://user-images.githubusercontent.com/81070073/122327166-4de95480-cee2-11eb-8908-67f76c491150.png)
+
+After checking out the server code, I noticed that the flag will be granted if the userID and the username "Admin" match. The userID has a three digit number only. 
+
+Also, the userID and the username are actually encoded in the cookie value.
+
+Using kupatergent as an example, this person's userID and username are stored in the cookie value "j%3A%7B%22userID%22%3A%22972%22%2C%22username%22%3A%22kupatergent%22%7D", which is encoded.
+
+![image](https://user-images.githubusercontent.com/81070073/122327471-c2bc8e80-cee2-11eb-9bb6-32ee8550fbab.png)
+
+I have written a bash script that will help me bruteforce and provide the cookie encoded in the similar manner, in which the userID will be attempted in the range from 0 to 999.
+
+```
+#!/bin/bash
+
+for i in {0..999}
+do
+        curl --cookie "userData=j%3A%7B%22userID%22%3A%22$i%22%2C%22username%22%3A%22admin%22%7D" "https://message-board.hsc.tf/"
+done
+
+```
+
+After executing the script:
+
+```
+$ ./script.sh | grep "flag{" > output.txt
+$ cat output.txt
+
+```
