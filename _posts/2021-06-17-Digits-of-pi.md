@@ -1,6 +1,6 @@
 ---
 title: HSCTF 2021 - Digits of Pi | Web
-published: false
+published: true
 ---
 
 ## [](#header-2)Digits of Pi
