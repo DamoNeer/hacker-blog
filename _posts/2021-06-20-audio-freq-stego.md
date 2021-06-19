@@ -1,6 +1,6 @@
 ---
 title: HSCTF 2021 - Audio Frequency | Steg
-published: false
+published: true
 ---
 
 ## [](#header-2)Audio Freqency
