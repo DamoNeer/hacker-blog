@@ -6,4 +6,4 @@ title: About
 
 Email: damianl0xff@gmail.com
 
-[LinkedIn](https://www.linkedin.com/in/damian-l-805b0420a/)
+[LinkedIn](https://www.linkedin.com/in/marco-lo-805b0420a/)
